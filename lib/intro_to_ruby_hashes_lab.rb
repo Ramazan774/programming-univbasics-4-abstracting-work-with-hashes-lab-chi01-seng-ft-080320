@@ -1,10 +1,10 @@
 def my_hash_creator(key, value)
-  my_hash_creator (:key, "Tom")
-  my_hash_creator(:value, 44# return a hash that includes the key and value parameters passed into this method
+  my_hash_creator (:name, "Grace Hopper")
+  my_hash_creator(:id, 1) # return a hash that includes the key and value parameters passed into this method
 end
 
 def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
+ read_from_hash (:location, "" ) # return the correct value using the hash and key parameters
 end
 
 def update_counting_hash(hash, key)
